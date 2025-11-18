@@ -84,7 +84,7 @@ private val DarkColors = darkColorScheme(
 )
 
 @Composable
-fun _Pomidorka286_30daysTheme(
+fun Pomidorka286_30daysTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = false,
