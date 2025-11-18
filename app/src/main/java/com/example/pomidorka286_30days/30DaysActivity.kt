@@ -1,4 +1,4 @@
-package com.example.pomidorka286_30days.ui.theme
+package com.example.pomidorka286_30days
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.animateColorAsState
@@ -43,7 +43,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.pomidorka286_30days.R
+import com.example.pomidorka286_30days.data.Advice
+import com.example.pomidorka286_30days.data.AdvicesRepository
 
 @Composable
 fun AdvicesList(
@@ -171,7 +172,7 @@ fun AdviceListItem(
 @Preview(showBackground = true)
 @Composable
 fun HeroesPreview() {
-    Pomidorka286_30daysTheme(darkTheme = false) {
+    _root_ide_package_.com.example.pomidorka286_30days.ui.theme.Pomidorka286_30daysTheme(darkTheme = false) {
         AdvicesList(advices = AdvicesRepository.advices)
     }
 }

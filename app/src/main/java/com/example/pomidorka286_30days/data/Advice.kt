@@ -1,4 +1,4 @@
-package com.example.pomidorka286_30days.ui.theme
+package com.example.pomidorka286_30days.data
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes

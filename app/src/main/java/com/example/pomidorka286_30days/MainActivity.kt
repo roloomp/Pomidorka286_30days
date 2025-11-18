@@ -16,8 +16,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.pomidorka286_30days.ui.theme.AdvicesList
-import com.example.pomidorka286_30days.ui.theme.AdvicesRepository
+import com.example.pomidorka286_30days.data.AdvicesRepository
 import com.example.pomidorka286_30days.ui.theme.Pomidorka286_30daysTheme
 
 class MainActivity : ComponentActivity() {
